@@ -14,10 +14,14 @@
 // The corresponding enum in TypeScript would be:
 
 enum PrintMedia {
-    Newspaper,
-    Newsletter,
-    Magazine,
-    Book
+    Newspaper,      //0
+    Newsletter,     //1
+    Magazine,       //2
+    Book            //3
   }
 
-  
+// Output
+// Newspaper = 0
+// Newsletter = 1
+// Magazine = 2
+// Book = 3

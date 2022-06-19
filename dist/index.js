@@ -1,4 +1,5 @@
 "use strict";
-console.log('Hello typescript');
-let num = 20;
-//# sourceMappingURL=index.js.map
+let age = 20;
+if (age < 50) {
+    age += 10;
+}
