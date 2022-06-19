@@ -68,3 +68,6 @@ In Javascript, there are 6 primitive data type, ts comes with few more data type
 
 - [Aakash Kumar](https://github.com/Aakashvani)
 
+
+[Go to the Support Web Site](https://support.west-wind.com)
+
