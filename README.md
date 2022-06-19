@@ -14,6 +14,7 @@ TypeScript lets you write JavaScript the way you really want to. TypeScript is a
 
 - [Know more about TS](https://www.tutorialspoint.com/typescript/typescript_overview.htm)
 - [Official Doc](https://www.typescriptlang.org/docs/)
+- [Link](https://www.tutorialsteacher.com/typescript)
 ## Setting up the Development Enviroment
 
 Install Typescript Globally On Your Local System
@@ -43,6 +44,25 @@ Basic changes and enabling settings ( inside " tsconfig.json " )
 - "removeComments" : true,
 - "noEmitOnError" : true,
 
+
+## Fundamental
+
+In Javascript, there are 6 primitive data type, ts comes with few more data type.
+
+### In JS 
+- [Number]()
+- [String]()
+- [booleen]()
+- [null]()
+- [undefined]() 
+- [Object]()
+
+### In TS 
+- [any](https://ultimatecourses.com/blog/typescript-types-the-any-type#:~:text=The%20any%20type%20allows%20us,String%20value%20becoming%20a%20Number.)
+- [unknown](https://mariusschulz.com/blog/the-unknown-type-in-typescript)
+- [never](https://www.tutorialsteacher.com/typescript/typescript-never)
+- [enum](https://www.tutorialsteacher.com/typescript/typescript-enum)
+- [tuple](https://www.tutorialsteacher.com/typescript/typescript-tuple) 
 
 ## Authors
 
