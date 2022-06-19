@@ -25,3 +25,36 @@ enum PrintMedia {
 // Newsletter = 1
 // Magazine = 2
 // Book = 3
+
+
+// String Enum
+// String enums are similar to numeric enums, except that the enum values are initialized with string values rather than numeric values.
+
+// The benefits of using string enums is that string enums offer better readability. If we were to debug a program, it is easier to read string values rather than numeric values.
+
+// Consider the same example of a numeric enum, but represented as a string enum:
+
+// Example: String Enum 
+enum PrintSocialMedia {
+    Facebook = "FACEBOOK",
+    Instagram = "INSTAGRAM",
+    WhatsApp = "WHATSAPP",
+    Twitter = "TWITTER"
+}
+// Access String Enum 
+// PrintMedia.Instagarm;    //returns INSTAGRAM ̰
+// PrintMedia['Twitter'];  //returns TWITTER
+
+// In the above example, we have defined a string enum, PrintMedia, with the same values as the numeric enum above, with the difference that these enum values are initialized with string literals. The difference between numeric and string enums is that numeric enum values are auto-incremented, while string enum values need to be individually initialized.
+
+
+
+// Heterogeneous Enum
+// Heterogeneous enums are enums that contain both string and numeric values.
+
+// Example: Heterogeneous Enum 
+enum Status { 
+    Active = 'ACTIVE', 
+    Deactivate = 1, 
+    Pending
+}
