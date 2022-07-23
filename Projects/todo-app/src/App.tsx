@@ -21,7 +21,7 @@ const App: FC = () => {
 
   return (
     <div className="App">
-      <span className="heading">TODO APP</span>
+      <span className="heading">Typescript - TODO APP 📝</span>
       <InputFeild todo={todo} setTodo={setTodo} handleAdd={handleAdd} />
       <TodoList todos={todos} setTodos={setTodos} />
     </div>

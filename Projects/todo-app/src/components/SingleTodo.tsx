@@ -1,4 +1,4 @@
-import React, { FC, useState } from "react";
+import React, { FC, useEffect, useRef, useState } from "react";
 import { Todo } from "../model";
 import { AiFillEdit, AiFillDelete } from "react-icons/ai";
 import { MdDone } from "react-icons/md";
@@ -9,8 +9,6 @@ import TodoList from "./TodoList";
 //   todos: Todo[];
 //   setTodos: React.Dispatch<React.SetStateAction<Todo[]>>;
 // }
-
-// 59 min;
 
 type Props = {
   todo: Todo;
@@ -30,6 +28,13 @@ const SingleTodo = ({ todo, todos, setTodos }: Props) => {
     setEdit(false);
   };
 
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(()=>{
+    inputRef.current?.focus();
+  },[edit])
+
+
   const handleDelete = (id: number) => {
     setTodos(todos.filter((todo) => todo.id !== id));
   };
@@ -42,12 +47,14 @@ const SingleTodo = ({ todo, todos, setTodos }: Props) => {
     );
   };
 
-  
-
   return (
     <form className="todos__single" onSubmit={(e) => handleEdit(e, todo.id)}>
       {edit ? (
-        <input value={editTodo} onChange={(e) => setEditTodo(e.target.value)} />
+        <input
+          ref={inputRef}
+          value={editTodo}
+          onChange={(e) => setEditTodo(e.target.value)}
+        />
       ) : todo.isDone ? (
         <s className="todos__single--text">{todo.todo}</s>
       ) : (
@@ -77,5 +84,3 @@ const SingleTodo = ({ todo, todos, setTodos }: Props) => {
 };
 
 export default SingleTodo;
-
-
