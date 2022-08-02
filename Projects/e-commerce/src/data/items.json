@@ -3,24 +3,24 @@
     "id": 1,
     "name": "Book",
     "price": 10.99,
-    "imgUrl": "https://github.com/WebDevSimplified/react-ts-shopping-cart/blob/main/public/imgs/book.jpg?raw=true"
+    "imgUrl": "/public/imgs/book.jpeg"
   },
   {
     "id": 2,
     "name": "Computer",
     "price": 1199,
-    "imgUrl": "https://github.com/WebDevSimplified/react-ts-shopping-cart/blob/main/public/imgs/computer.jpg?raw=true"
+    "imgUrl": "/public/imgs/computer.jpeg"
   },
   {
     "id": 3,
     "name": "Banana",
     "price": 1.05,
-    "imgUrl": "https://github.com/WebDevSimplified/react-ts-shopping-cart/blob/main/public/imgs/banana.jpg?raw=true"
+    "imgUrl": "/public/imgs/banana.jpeg"
   },
   {
     "id": 4,
     "name": "Car",
     "price": 14000,
-    "imgUrl": "https://github.com/WebDevSimplified/react-ts-shopping-cart/blob/main/public/imgs/car.jpg?raw=true"
+    "imgUrl": "/public/imgs/car.jpeg"
   }
 ]
