@@ -1,6 +1,4 @@
-<h1 align="center"><b>INVOICE API</b></h1>
-
-<h2 align="center"> Technokart Assignment </h2>    
+<h1 align="center">Typescript Ecommerce Cart App</h1>    
 
 <br />
 
